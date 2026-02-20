@@ -682,3 +682,20 @@ nav a:hover::after {
     align-items: center;
   }
 }
+
+@media (max-width: 425px) {
+  .about-section {
+    padding: 5px;
+  }
+  .about-content p {
+    font-size: 20px;
+  }
+  .about-image img {
+    width: 70%;
+    height: auto;
+    box-shadow: none;
+  }
+  .about-container {
+    gap: 15px;
+  }
+}
