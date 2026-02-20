@@ -703,3 +703,9 @@ nav a:hover::after {
     right: -32px;
   }
 }
+
+@media (max-width: 390px) {
+  .hero-image img {
+    right: -21px;
+  }
+}
